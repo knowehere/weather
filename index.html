@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+    <section class="hero">
+        <div class="input-data input-data-1">
+            <p>Широта</p>
+            <form><input type="number" id="latitude" required></form>
+        </div>
+        <div class="input-data input-data-2">
+            <p>Долгота</p>
+            <form><input type="number" id="longitude" required></form>
+        </div>
+        <button id="getWeather">Добавить погоду</button>
+    </section>
+    <div class="weather" id="weatherInfo"></div>
+    <div id="weatherWidgets"></div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+  
+  
